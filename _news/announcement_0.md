@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2020-8-17 15:59:00-0400
+date: 2020-1-06 15:59:00-0400
 inline: true
 ---
 
-Started internship at Microsoft.
+One paper published at Journal of Public Health.
