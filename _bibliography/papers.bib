@@ -10,84 +10,6 @@
 @string{NeurIPS = {NeurIPS}}
 
 
-@inproceedings{11,
- abbr={CVPR},
- mainlink = {https://openaccess.thecvf.com/content/CVPR2021/html/Dabouei_SuperMix_Supervising_the_Mixing_Data_Augmentation_CVPR_2021_paper.html},
-  img = {assets/img/supermix.jpg},
-  author    = {Ali Dabouei and Sobhan Soleymani and Fariborz Taherkhani and Nasser M. Nasrabadi},
-  title     = {SuperMix: Supervising the Mixing Data Augmentation},
-  booktitle = CVPR,
-  year      = {2021},
-  pdf       = {https://openaccess.thecvf.com/content/CVPR2021/papers/Dabouei_SuperMix_Supervising_the_Mixing_Data_Augmentation_CVPR_2021_paper.pdf},
-  code      = {https://github.com/alldbi/SuperMix},
-  abstract = {This paper presents a supervised mixing augmentation method termed SuperMix, which exploits the salient regions within input images to construct mixed training samples. SuperMix is designed to obtain mixed images rich in visual features and complying with realistic image priors. To enhance the efficiency of the algorithm, we develop a variant of the Newton iterative method, 65xfaster than gradient descent on this problem. We validate the effectiveness of SuperMix through extensive evaluations and ablation studies on two tasks of object classification and knowledge distillation. On the classification task, SuperMix provides comparable performance to the advanced augmentation methods, such as AutoAugment and RandAugment. In particular, combining SuperMix with RandAugment achieves 78.2% top-1 accuracy on ImageNet with ResNet50. On the distillation task, solely classifying images mixed using the teacher's knowledge achieves comparable performance to the state-of-the-art distillation methods. Furthermore, on average, incorporating mixed images into the distillation objective improves the performance by 3.4% and 3.1% on CIFAR-100 and ImageNet, respectively.},
-        selected={true}
-}
-
-@inproceedings{10,
- abbr={CVPR},
-  mainlink = {https://openaccess.thecvf.com/content/CVPR2021/html/Taherkhani_Self-Supervised_Wasserstein_Pseudo-Labeling_for_Semi-Supervised_Image_Classification_CVPR_2021_paper.html},
- img = {assets/img/far_cvpr21.jpg},
-  author    = {Fariborz Taherkhani and Ali Dabouei and Sobhan Soleymani and Jeremy Dawson and Nasser M. Nasrabadi},
-  title     = {Self-Supervised Wasserstein Pseudo-Labeling for Semi-Supervised Image Classification},
-  booktitle = CVPR,
-  year      = {2021},
-  pdf       = {https://openaccess.thecvf.com/content/CVPR2021/papers/Taherkhani_Self-Supervised_Wasserstein_Pseudo-Labeling_for_Semi-Supervised_Image_Classification_CVPR_2021_paper.pdf},
-  abstract = {The goal is to use Wasserstein metric to provide pseudo labels for the unlabeled images to train a Convolutional Neural Networks (CNN) in a Semi-Supervised Learning (SSL) manner for the classification task. The basic premise in our method is that the discrepancy between two discrete empirical measures (e.g., clusters) which come from the same or similar distribution is expected to be less than the case where these measures come from completely two different distributions. In our proposed method, we first pre-train our CNN using a self-supervised learning method to make a cluster assumption on the unlabeled images. Next, inspired by the Wasserstein metric which considers the geometry of the metric space to provide a natural notion of similarity between discrete empirical measures, we leverage it to cluster the unlabeled images and then match the clusters to their similar class of labeled images to provide a pseudo label for the data within each cluster. We have evaluated and compared our method with state-of-the-art SSL methods on the standard datasets to demonstrate its effectiveness.},
-        selected={true}
-}
-
-@inproceedings{9,
- abbr={WACV},
-  mainlink = {https://openaccess.thecvf.com/content/WACV2021/html/Soleymani_Mutual_Information_Maximization_on_Disentangled_Representations_for_Differential_Morph_Detection_WACV_2021_paper.html},
- img = {assets/img/sobhanwacv.jpg},
-  author    = {Sobhan Soleymani and Ali Dabouei and Fariborz Taherkhani and Jeremy Dawson and Nasser M. Nasrabadi},
-  title     = {Mutual Information Maximization on Disentangled Representations for Differential Morph Detection},
-  booktitle = WACV,
-  year      = {2021},
-  pdf       = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490494.pdf},
-  abstract = {In this paper, we present a novel differential morph detection framework, utilizing landmark and appearance disentanglement. In our framework, the face image is represented in the embedding domain using two disentangled but complementary representations. The network is trained by triplets of face images, in which the intermediate image inherits the landmarks from one image and the appearance from the other image. This initially trained network is further trained for each dataset using contrastive representations. We demonstrate that, by employing appearance and landmark disentanglement, the proposed framework can provide state-of-the-art differential morph detection performance. This functionality is achieved by the using distances in landmark, appearance, and ID domains. The performance of the proposed framework is evaluated using three morph datasets generated with different methodologies.},
-        selected={true}
-}
-
-@inproceedings{8,
- abbr={ECCV},
-  mainlink = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2402_ECCV_2020_paper.php},
-  img = {assets/img/fariborzeccv.jpg},
-  author    = {Fariborz Taherkhani and Ali Dabouei and Sobhan Soleymani and Jeremy Dawson and Nasser M. Nasrabadi},
-  title     = {Transporting Labels via Hierarchical Optimal Transport for Semi-Supervised Learning},
-  booktitle = ECCV,
-  year      = {2020},
-  pdf       = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123490494.pdf},
-  abstract = {Semi-Supervised Learning (SSL) based on Convolutional Neural Networks (CNNs) have recently been proven as powerful tools for standard tasks such as image classification when there is not a sufficient amount of labeled data available during the training. In this work, we consider the general setting of the SSL problem for image classification, where the labeled and unlabeled data come from the same underlying distribution. We propose a new SSL method that adopts a hierarchical Optimal Transport (OT) technique to find a mapping from empirical unlabeled measures to corresponding labeled measures by leveraging the minimum amount of transportation cost in the label space. Based on this mapping, pseudo-labels for the unlabeled data are inferred, which are then used along with the labeled data for training the CNN. We evaluated and compared our method with state-of-the-art SSL approaches on standard datasets to demonstrate the superiority of our SSL method.},
-        selected={true}
-}
-
-@inproceedings{7,
- abbr={BMVC},
-  mainlink = {https://www.bmvc2020-conference.com/assets/papers/0561.pdf},
-   img = {assets/img/mehdibmvc.jpg},
-  author    = {Mehdi Iranmanesh and Ali Dabouei and Nasser M. Nasrabadi},
-  title     = {Attribute Adaptive Margin Softmax Loss using Privileged Information},
-  booktitle = BMVC,
-  year      = {2020},
-  pdf       = {https://www.bmvc2020-conference.com/assets/papers/0561.pdf},
-  abstract = {We present a novel framework to exploit privileged information for recognition which is provided only during the training phase. Here, we focus on recognition task where images are provided as the main view and soft biometric traits (attributes) are provided as the privileged data (only available during training phase). We demonstrate that more discriminative feature space can be learned by enforcing a deep network to adjust adaptive margins between classes utilizing attributes. This tight constraint also effectively reduces the class imbalance inherent in the local data neighborhood, thus carving more balanced class boundaries locally and using feature space more efficiently. Extensive experiments are performed on five different datasets and the results show the superiority of our method compared to the state-of-the-art models in both tasks of face recognition and person re-identification.},
-        selected={true}
-}
-
-@inproceedings{6,
- abbr={CVPR},
-  mainlink = {https://openaccess.thecvf.com/content_CVPR_2020/html/Dabouei_Exploiting_Joint_Robustness_to_Adversarial_Perturbations_CVPR_2020_paper.html},
-    img = {assets/img/gpmr.jpg},
-  author    = {Ali Dabouei and Sobhan Soleymani and Fariborz Taherkhani and Jeremy Dawson and Nasser M. Nasrabadi},
-  title     = {Exploiting Joint Robustness to Adversarial Perturbations},
-  booktitle = CVPR,
-  year      = {2020},
-  pdf       = {https://openaccess.thecvf.com/content_CVPR_2020/papers/Dabouei_Exploiting_Joint_Robustness_to_Adversarial_Perturbations_CVPR_2020_paper.pdf},
-  abstract = {Recently, ensemble models have demonstrated empirical capabilities to alleviate the adversarial vulnerability. In this paper, we exploit first-order interactions within ensembles to formalize a reliable and practical defense. We introduce a scenario of interactions that certifiably improves the robustness according to the size of the ensemble, the diversity of the gradient directions, and the balance of the member's contribution to the robustness. We present a joint gradient phase and magnitude regularization (GPMR) as a vigorous approach to impose the desired scenario of interactions among members of the ensemble. Through extensive experiments, including gradient-based and gradient-free evaluations on several datasets and network architectures, we validate the practical effectiveness of the proposed approach compared to the previous methods. Furthermore, we demonstrate that GPMR is orthogonal to other defense strategies developed for single classifiers and their combination can further improve the robustness of ensembles.},
-        selected={true}
-}
 
 @inproceedings{5,
  abbr={WACV},
@@ -132,7 +54,7 @@
 @inproceedings{2,
  abbr={Journal of Public Health},
   mainlink = {https://link.springer.com/article/10.1007/s10389-020-01418-5},
-        img = {assets/img/f1.jpg},
+        img = {assets/img/paper2.JPG},
   author    = {Sadaf Kabir and
                 Leily Farrokhvar and Michael W Russell and Alex Forman and Behrooz Kamali},
   title     = {Regional socioeconomic factors and length of hospital stay: a case study in Appalachia},
@@ -162,7 +84,7 @@
 @inproceedings{1,
  abbr={ICMLA},
   mainlink = {https://ieeexplore.ieee.org/abstract/document/8999179},
-         img = {assets/img/geo1.jpg},
+         img = {assets/img/mehdibmvc.JPG},
   author    = {Sadaf Kabir and Leily Farrokhvar},
   title     = {Non-linear Feature Selection for Prediction of Hospital Length of Stay},
   booktitle = ICMLA,
