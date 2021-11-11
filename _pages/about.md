@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Graduate Research Assistant, <a href="https://imse.statler.wvu.edu/">West virginia University</a>.
+description: Graduate Research and Teaching Assistant, <a href="https://imse.statler.wvu.edu/">West virginia University</a>.
 
 profile:
   align: right
