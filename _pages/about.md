@@ -24,5 +24,5 @@ My special fields of interests are:
 
 - Data Mining
 - Machine Learning
-- Outcome Prediction
-- Unsupervised Learning
+- Artificial Intelligence
+- Clinical Outcome Prediction
