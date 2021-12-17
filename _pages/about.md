@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Graduate Research and Teaching Assistant, <a href="https://imse.statler.wvu.edu/">West virginia University</a>.
+description: Graduate Research Assistant, <a href="https://imse.statler.wvu.edu/">West virginia University</a>.
 
 profile:
   align: right
@@ -15,14 +15,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate in the [Department of Industrial and Management Systems Engineering](https://imse.statler.wvu.edu/) at West Virginia University. I am interested in deep learning, machine learning (ML), mathematics, and statistical learning. Currently, I am working on applications of deep learning in healthcare.
+I am a PhD candidate in the [Department of Industrial and Management Systems Engineering](https://imse.statler.wvu.edu/) at West Virginia University. I am interested in  machine learning (ML), deep learning, mathematics, and statistical learning. Currently, I am working on applications of deep learning in healthcare.
 
 Interests
 ----
 
 My special fields of interests are:
 
-- Data Mining
 - Machine Learning
+- Deep Learning
 - Artificial Intelligence
 - Clinical Outcome Prediction
